@@ -222,5 +222,13 @@ font-weight: bold;
             grid-template-columns: auto;
 
             }
-
+#language #info{
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+  
+#language #start{
+    font-size: 14px;
+    width: 75px;
+    }
 }
