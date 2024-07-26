@@ -217,6 +217,10 @@ font-weight: bold;
             width: 100%;
         
          }
-        
+                .cont{
+            display: grid;
+            grid-template-columns: auto;
+
+            }
 
 }
