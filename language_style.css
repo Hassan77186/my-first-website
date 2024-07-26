@@ -141,29 +141,41 @@ border-bottom: 1px solid gray;
         
         }
         
-    @media only screen and (max-width: 767px){
-    
-        #bu{
-            font-size: 12px;
-        }
-        #title{
-            
-    
-            font-size: 12px;
-        }
-        #logo{
-       
-            width: 40px;
-        }
-        ul{
-            display: inline-block;
-        }
-        ul li a{
-            font-size: 12px;
-        }
-        .headbar{
-          
-            padding-bottom: 80px;
-            
+        @media only screen and (max-width: 600px){
+
+
+            #title{
+            display: none;
             }
-    }
+            #logo{
+                margin-top: 5px;
+                width: 40px;
+            }
+        
+            ul li a{
+                display: block;
+                font-size: 12px;
+            }
+            .headbar{
+              
+                padding-bottom: 90px;
+                
+                }
+                #bu{
+                    font-size: 10px;
+                }
+                #alert{
+                    font-size: 12px;
+        
+        
+                    max-width: 350px;
+                    width: 100%;
+                
+                 }
+                table{
+                    font-size: 13px;
+                }
+
+        }
+        
+        
